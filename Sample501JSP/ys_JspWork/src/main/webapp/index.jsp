@@ -2,12 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP2 - input.jsp</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<form action="" method="post">
+    <input type="number" name="num1">
+    <input type="number" name="num2">
+    <button type="submit">전송</button>
+</form>
 </body>
 </html>
